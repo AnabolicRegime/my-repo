@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.anabolic" name="AnabolicRegime Repository" version="1.0.0" provider-name="AnabolicRegime">
+    <extension point="xbmc.addon.repository" name="AnabolicRegime Repository">
+        <dir>
+            <info compressed="false">https://AnabolicRegime.github.io/my-repo/zips/addons.xml</info>
+            <checksum>https://AnabolicRegime.github.io/my-repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://AnabolicRegime.github.io/my-repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>AnabolicRegime Kodi Repository</summary>
+        <description>Personal repository for Kodi add-ons.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
