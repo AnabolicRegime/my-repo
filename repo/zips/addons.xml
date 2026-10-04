@@ -12,4 +12,18 @@
         <description>Personal repository for Kodi add-ons.</description>
         <platform>all</platform>
     </extension>
+</addon><addon id="plugin.program.openwizard" name="OpenWizard" version="1.4.9" provider-name="drinfernoo">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>OpenWizard</summary>
+        <description>OpenWizard</description>
+        <platform>all</platform>
+    </extension>
 </addon></addons>
